@@ -12,6 +12,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 import com.cognizant.auth.model.AuthUser;
 import com.cognizant.auth.repository.UserRepository;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableFeignClients
